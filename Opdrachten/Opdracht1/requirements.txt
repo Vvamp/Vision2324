@@ -1,0 +1,6 @@
+scikit-image==0.17.2
+numpy==1.19.5
+scikit-learn==0.23.2
+matplotlib==3.3.4
+wxpython==4.1.0
+pyqt5==5.15.2
