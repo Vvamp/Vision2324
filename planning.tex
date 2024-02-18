@@ -1,7 +1,23 @@
 \documentclass{article}
 \usepackage[utf8]{inputenc}
-
+\usepackage{tabularx}
 \begin{document}
 \section{Planning}
-TBD
+
+\begin{table}[ht]
+    \centering
+    \begin{tabularx}{\textwidth}{|l|X|}
+        \hline
+        \textbf{Week} & \textbf{Activiteit} \\ \hline
+        Week 1-2 & Dataverzameling en voorverwerking. \\ \hline
+        Week 3-4 & Modelontwerp en begin van training. \\ \hline
+        Week 5-8 & Evaluatie van het model en finetuning. \\ \hline
+        Week 8 & Uitvoeren van experimenten op de testset. \\ \hline
+        Week 9 & Analyse van de resultaten en voorbereiding van het eindverslag. \\ \hline
+    \end{tabularx}
+    \caption{Project planning}
+    \label{tab:project_planning}
+    \end{table}
+
+
 \end{document}
